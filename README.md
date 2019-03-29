@@ -4,7 +4,7 @@
 ## Lab 9
 ### Chris Merritt
 ### Links and Resources
-* [PR]()
+* [PR](https://github.com/401-advanced-javascript-merritt/lab-09/pull/1)
 
 [![Build Status](https://www.travis-ci.com/401-advanced-javascript-merritt/lab-09.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-merritt/lab-09)
 
@@ -15,16 +15,12 @@
 * [swagger](https://lab9-merritt.herokuapp.com/api/v1/doc/)
 
 * [jsdoc](https://lab9-merritt.herokuapp.com/docs/index.html)
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-###### `foo(thing) -> string`
-<!-- If you finished everything, you should be able to copy/paste the lab requirements and put them in present tense. -->
-Usage Notes or examples
-###### `bar(array) -> array`
-Usage Notes or examples
+
 ### Setup
 #### `.env` requirements
+* Need to set the port (3000)
+* Need to add the connection string to the MONGODB_URI
+
 * `npm i`
 
 #### Running the app
