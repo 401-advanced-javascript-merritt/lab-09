@@ -2,7 +2,35 @@
 
 const mongoose = require('mongoose');
 require('mongoose-schema-jsonschema')(mongoose);
-
+/**
+ * @param  {{type:String} {name
+ * @param  {true}} required
+ * @param  {{type:String} position
+ * @param  {true} required
+ * @param  {true} uppercase
+ * @param  {'P'} enum
+ * @param  {} 'C'
+ * @param  {} '1B'
+ * @param  {} '2B'
+ * @param  {} '3B'
+ * @param  {} 'SS'
+ * @param  {} 'LF'
+ * @param  {} 'RF'
+ * @param  { 'CF'}
+ * @param  {{type:String} throws
+ * @param  {true} required
+ * @param  {true} uppercase
+ * @param  {'R'} enum
+ * @param  { 'L'}
+ * @param  {{type:String} bats
+ * @param  {true} required
+ * @param  {true} uppercase
+ * @param  {'R'} enum
+ * @param  { 'L'}
+ * @param  {{type:String} team
+ * @param  {true}} required
+ * @param  { }
+ */
 const players = mongoose.Schema({
   name: { type:String, required:true },
   position: { type:String, required:true, uppercase:true, enum:['P','C','1B','2B','3B','SS','LF','RF','CF'] },

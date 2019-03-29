@@ -8,7 +8,7 @@ const mockRequest = supergoose.server(server);
 beforeAll(supergoose.startDB);
 afterAll(supergoose.stopDB);
 
-describe('api server', () => {
+xdescribe('api server', () => {
 
   it('should respond with a 404 on an invalid route', () => {
 

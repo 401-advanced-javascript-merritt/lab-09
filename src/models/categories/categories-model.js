@@ -1,3 +1,9 @@
+/**
+ * @param  {} '../memory-model.js'
+ * @param  {{required:true}} ;constschema={_id
+ * @param  {{required:true}} name
+ * @param  {} };classCategoriesextendsModel{}module.exports=newCategories(schema
+ */
 'use strict';
 
 const Model = require('../memory-model.js');
